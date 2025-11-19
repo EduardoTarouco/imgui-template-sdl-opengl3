@@ -5,6 +5,13 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 
+# clangd / LSP / Neovim
+.cache/
+.clangd/
+.clangd-cache/
+.clang-format
+.clang-tidy
+
 # Arquivos para compilação
 *.o
 *.obj
@@ -24,3 +31,9 @@ Makefile
 
 # Output
 /bin/
+
+# Comandos de compilação utilizados pelo clang e determinados pelo CMake
+compile_commands.json
+
+# Logs
+*.log

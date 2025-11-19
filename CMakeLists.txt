@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(BasicAppSetup)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(source_files 
   main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/ImGui/imgui.cpp
