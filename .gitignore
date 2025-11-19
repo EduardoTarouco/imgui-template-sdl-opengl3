@@ -21,6 +21,8 @@ Makefile
 *.lib
 *.a
 *.pdb
+!dlls/
+!dlls/*.dll
 
 # Arquivos de editores/IDEs
 .vscode/
