@@ -1,0 +1,26 @@
+# CMake
+build*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Arquivos para compilação
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.lib
+*.a
+*.pdb
+
+# Arquivos de editores/IDEs
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+
+# Output
+/bin/
