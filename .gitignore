@@ -23,6 +23,8 @@ Makefile
 *.pdb
 !dlls/
 !dlls/*.dll
+!SDL3/lib/libSDL3.dll.a
+!SDL3/lib/libSDL3_test.a
 
 # Arquivos de editores/IDEs
 .vscode/
